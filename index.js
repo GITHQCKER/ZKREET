@@ -18,7 +18,7 @@ const start = (bocchi = new Client()) => {
     console.log(color('=> Bot successfully loaded! Database:', 'yellow'), color(loader.getAllDirFiles('./database').length), color('Library:', 'yellow'), color(loader.getAllDirFiles('./lib').length), color('Function:', 'yellow'), color(loader.getAllDirFiles('./function').length))
     console.log(color('=> Source code version:', 'yellow'), color(version))
     console.log(color('=> Bug? Error? Suggestion? Visit here:', 'yellow'), color(bugs.url))
-    console.log(color('[BOCCHI]'), color('BocchiBot is now online!', 'yellow'))
+    console.log(color('[AKEERA]'), color('Akeera is now online!', 'yellow'))
     console.log(color('[DEV]', 'cyan'), color('Welcome back, Owner! Hope you are doing well~', 'magenta'))
 
     // Creating a localhost
@@ -33,13 +33,13 @@ const start = (bocchi = new Client()) => {
     // loader.nocache('../message/index.js', (m) => console.log(color('[WATCH]', 'orange'), color(`=> '${m}'`, 'yellow'), 'file is updated!'))
 
     bocchi.onStateChanged((state) => {
-        console.log(color('[BOCCHI]'), state)
+        console.log(color('[AKEERA]'), state)
         if (state === 'UNPAIRED' || state === 'CONFLICT' || state === 'UNLAUNCHED') bocchi.forceRefocus()
     })
 
     bocchi.onAddedToGroup(async (chat) => {
         const gc = await bocchi.getAllGroups()
-        console.log(color('[BOCCHI]'), 'Added to a new group. Name:', color(chat.contact.name, 'yellow'), 'Total members:', color(chat.groupMetadata.participants.length, 'yellow'))
+        console.log(color('[AKEERA]'), 'Added to a new group. Name:', color(chat.contact.name, 'yellow'), 'Total members:', color(chat.groupMetadata.participants.length, 'yellow'))
         if (chat.groupMetadata.participants.includes(ownerBot)) {
             await bocchi.sendText(chat.id, ind.addedGroup(chat))
         } else if (gc.length > groupLimit) {
