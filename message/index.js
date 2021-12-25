@@ -360,8 +360,8 @@ module.exports = msgHandler = async (bocchi = new Client(), message) => {
         if (isCmd && !isPremium && !isOwner) msgFilter.addFilter(from)
 
         switch (command) {
-            case prefix+'antiporn': // Premium, chat VideFikri
-                await bocchi.reply(from, 'Premium feature!\n\nContact: wa.me/6285692655520?text=Buy%20Anti%20Porn', id)
+            case prefix+'chat': // Premium, chat VideFikri
+                await bocchi.reply(from, 'Premium feature!\n\nContact: wa.me/94771323434?text=HELLO%20ZED%20,', id)
             break
 
             // Register by Slavyan
@@ -553,7 +553,7 @@ module.exports = msgHandler = async (bocchi = new Client(), message) => {
                 downloader.fb(url)
                     .then(async ({ result }) => {
                             await bocchi.sendFileFromUrl(from, result.VideoUrl, 'videofb.mp4', '', id)
-                            console.log(from, 'Success sending Facebook video!')
+                            console.log(from, 'Success sending Facebook video!/nᴀᴋᴇᴇʀᴀ ʙᴏᴛ')
                     })
                     .catch(async (err) => {
                         console.error(err)
@@ -561,6 +561,7 @@ module.exports = msgHandler = async (bocchi = new Client(), message) => {
                     })
             break
                 case prefix+'ytmp3':
+                case prefix+'song':
                 if (!isRegistered) return await bocchi.reply(from, ind.notRegistered(), id)
                 if (!isUrl(url) && !url.includes('youtu.be')) return await bocchi.reply(from, ind.wrongFormat(), id)
                 if (limit.isLimit(sender.id, _limit, limitCount, isPremium, isOwner)) return await bocchi.reply(from, ind.limit(), id)
