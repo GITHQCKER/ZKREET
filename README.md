@@ -56,16 +56,7 @@ Edit the required value in `config.json`.
 `authorStick`: name of the author sticker pack.  
 `packStick`: name of the sticker pack.  
 
-## 🗣️ Changing language
-If you want to change the language to English, replace all `ind` function to `eng`.   
-Example:
-```js
-ind.wrongFormat()
-```
-To:
-```js
-eng.wrongFormat()
-```
+
 
 ## 🧾 Installing the Tesseract
 * Download the file [here](https://s.id/vftesseract).
