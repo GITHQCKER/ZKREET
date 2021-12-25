@@ -1,45 +1,13 @@
 <div align="center">
-<img src="https://images5.alphacoders.com/911/911614.png" alt="BocchiBot" width="500" />
+<img src="https://www.linkpicture.com/q/InShot_20211226_015245793.jpg" alt="BocchiBot" width="500" />
 
-# **BocchiBot**
+<h1 align="center"><b> 𝙰𝙺𝙴𝙴𝚁𝙰 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝚄𝚂𝙴𝚁 𝙱𝙾𝚃</b></h1>
 
-> BocchiBot is a multipurpose WhatsApp bot using wa-automate-nodejs library!
->
->
+ 
 
-<h3 align="center">Made with ❤️ by</h3>
-<p align="center">
-  <a href="https://github.com/SlavyanDesu"><img src="https://avatars3.githubusercontent.com/u/28254882?s=400&u=25765902db0b709938966cf4127ac11af5eafb5d&v=4" height="128" width="128" /></a>
-  <a href="https://github.com/AlvioAdjiJanuar"><img src="https://avatars2.githubusercontent.com/u/68207798?s=400&u=29439908cd661d11443391cb74f5b07267b71117&v=4" height="128" width="128" /></a>
-  <a href="https://github.com/VideFrelan"><img src="https://avatars1.githubusercontent.com/u/76523793?s=400&u=365f732cd3fc09ce75f6556715a00386005db57c&v=4" height="128" width="128" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/SlavyanDesu"><img title="Author" src="https://img.shields.io/badge/Author-SlavyanDesu-purple.svg?style=for-the-badge&logo=github" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/SlavyanDesu/BocchiBot"><img title="Stars" src="https://img.shields.io/github/stars/SlavyanDesu/BocchiBot?color=red&style=flat-square" /></a>
-  <a href="https://github.com/SlavyanDesu/BocchiBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SlavyanDesu/BocchiBot?color=red&style=flat-square" /></a>
-  <a href="https://github.com/SlavyanDesu/BocchiBot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/SlavyanDesu/BocchiBot?label=watchers&color=blue&style=flat-square" /></a> <br>
-  <a href="https://www.npmjs.com/package/@open-wa/wa-automate"><img src="https://img.shields.io/npm/v/@open-wa/wa-automate.svg?color=green" /></a>
-  <img src="https://img.shields.io/node/v/@open-wa/wa-automate" />
-  <img src="https://img.shields.io/badge/maintained%3F-yes-green.svg?style=flat" />
-  <img src="https://img.shields.io/github/repo-size/SlavyanDesu/BocchiBot" /> <br>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot.svg?type=shield"/></a>
-  <a href="https://www.codefactor.io/repository/github/SlavyanDesu/BocchiBot"><img src="https://www.codefactor.io/repository/github/SlavyanDesu/BocchiBot/badge" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/SlavyanDesu/BocchiBot#requirements">Requirements</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#installation">Installation</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#features">Features</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#thanks-to">Thanks to</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#license">License</a>
-</p>
 
 <h4 align="center">
-  <a href="https://chat.whatsapp.com/BXlkQNiaemx4I8oIHjvhP4">Join WA BOT DEV Indonesia!</a>
+  <a href="https://chat.whatsapp.com/HEP90W2NX9Y4YISOzCu7AQ">𝙲𝙻𝙸𝙲𝙺 𝚃𝙾 𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚃𝙴𝚁 𝙶𝚁𝙾𝚄𝙿!</a>
 </h4>
 </div>
 
@@ -59,27 +27,21 @@
 > Heroku hosting is not recommended for public group.
 >
 
-# Installation
-## 📝 Cloning this repo
-```cmd
-> git clone https://github.com/SlavyanDesu/BocchiBot.git
-> cd BocchiBot
-```
 
 ## ✍️ Editing the file
 Edit the required value in `config.json`.
 ```json
 {
-    "ownerBot": "62812xxxxxxxx@c.us", 
-    "prefix": "$",
+    "ownerBot": "9477xxxxxxx@c.us", 
+    "prefix": ".",
     "uaOverride": "WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
     "nao": "api-key",
     "vhtear": "api-key",
     "melodic": "administrator",
     "tobz": "BotWeA",
     "lol": "api-key",
-    "authorStick": "@SlavyanDesu",
-    "packStick": "BocchiBot"
+    "authorStick": "@ZED",
+    "packStick": "ZED BOT"
 }
 ```
 
