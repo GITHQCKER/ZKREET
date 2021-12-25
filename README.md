@@ -54,72 +54,7 @@ Edit the required value in `config.json`.
 `tobz`: Tobz API key. You can use `BotWeA` key.   
 `lol`: LolHuman API key. You can get it [here](https://lolhuman.herokuapp.com/) by creating an account.  
 `authorStick`: name of the author sticker pack.  
-`packStick`: name of the sticker pack.  
-
-
-
-## 🧾 Installing the Tesseract
-* Download the file [here](https://s.id/vftesseract).
-* After that, run downloaded file as Administrator.
-* Complete the installation.
-* Run Command Prompt as Administrator.
-* Run this command:
-```cmd
-> setx /m PATH "C:\Program Files\Tesseract-OCR;%PATH%"
-```
-It will give us a callback like `SUCCESS: specified value was saved`.
-* Now that you've Tesseract installed, verify that it's working by running this command to see version number:
-```cmd
-> tesseract -version
-```
-
-## 🛠️ Installing the FFmpeg
-* Download one of the available versions of FFmpeg by clicking [this link](https://www.gyan.dev/ffmpeg/builds/).
-* Extract the file to `C:\` path.
-* Rename the extracted folder to `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Run this command:
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-It will give us a callback like `SUCCESS: specified value was saved`.
-* Now that you've FFmpeg installed, verify that it's working by running this command to see version number:
-```cmd
-> ffmpeg -version
-```
-
-## 🔍 Installing the dependencies
-```cmd
-> npm install
-```
-
-## 🆗 Running the bot
-Regular node:
-```cmd
-> npm start
-```
-
-PM2:
-```cmd
-> pm2 start index.js
-> pm2 monit
-```
-
-PM2 with cron job (restart after 5 hours):
-```cmd
-> pm2 start index.js --cron "* */5 * * *"
-> pm2 monit
-```
-
-After that scan the QR code using your WhatsApp in your phone!
-
-# Known issue
-## ESM error
-To prevent this, please use `node-fetch` and `parse-ms` with v2.x version.
-```cmd
-> npm install node-fetch@2.6.5
-> npm install parse-ms@2.1.0
-```
+`packStick`: name of the sticker pack``
 
 # Features
 If you want to unlock premium commands, please buy me a coffee at least 1 on Ko-fi platform.
@@ -301,29 +236,4 @@ If you want to unlock premium commands, please buy me a coffee at least 1 on Ko-
 | Multi-fetish       |    Premium   |
 
 # Thanks to
-* [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
-* [`YogaSakti/imageToSticker`](https://github.com/YogaSakti/imageToSticker)
-* [`uukina`](https://github.com/uukina)
-* [`MrPawNO`](https://github.com/MrPawNO)
-* [`Pahri123`](https://github.com/Pahri123)
-* [`LeviathanH`](https://github.com/LeviathanH)
-* [`ferlitopym`](https://github.com/ferlitopym)
-* [`AlvioAdjiJanuar`](https://github.com/AlvioAdjiJanuar)
-* [`VideFrelan`](https://github.com/VideFrelan)
-* [`VirusLauncher`](https://github.com/VirusLauncher)
-* [`Sansekai`](https://github.com/Sansekai)
-* [`Baguettou`](https://github.com/Baguettou)
-* [`HAFizh-15`](https://github.com/HAFizh-15)
-* [`TheSploit`](https://github.com/TheSploit)
-* [`rashidsiregar28`](https://github.com/rashidsiregar28)
-* [`irham01`](https://github.com/irham01)
-* [`hardiantojek93`](https://github.com/hardiantojek93)
-* [`gamingrkp`](https://github.com/gamingrkp)
-
-# License
-**BocchiBot** © [SlavyanDesu](https://github.com/SlavyanDesu), released under the MIT License.
-Authored and maintained by SlavyanDesu.
-
-<p align="center">
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot?ref=badge_large"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot.svg?type=large" />
-</p>
+me
