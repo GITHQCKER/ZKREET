@@ -2,95 +2,95 @@
 const { prefix } = require('../../../config.json')
 
 exports.wait = () => {
-    return `Mohon tunggu sebentar~`
+    return `PLEASE WAIT\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.ok = () => {
-    return `Ok desu~`
+    return `Ok\nnᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.wrongFormat = () => {
-    return `Format salah! Silakan cek cara penggunaan di *${prefix}menu*.`
+    return `Format data🙁*${prefix}menu*.\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.emptyMess = () => {
-    return `Harap masukkan pesan yang ingin disampaikan!`
+    return `🙁\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.cmdNotFound = (cmd) => {
-    return `Command *${prefix}${cmd}* tidak ditemukan!`
+    return `Command *${prefix}${cmd}* not found🙁\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ!`
 }
 
 exports.blocked = (ownerNumber) => {
-    return `Bot tidak menerima panggilan. Karena kamu telah melanggar rules, maka kamu telah diblok!\n\nHarap hubungi owner: wa.me/${ownerNumber.replace('@c.us', '')}`
+    return `user blocked!\n Akeera botowner: wa.me/${ownerNumber.replace('@c.us', '')}`
 }
 
 exports.ownerOnly = () => {
-    return `Command ini khusus Owner-sama!`
+    return `This command use only owners!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.doneOwner = () => {
-    return `Sudah selesai, Owner-sama~`
+    return `DONE\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ~`
 }
 
 exports.groupOnly = () => {
-    return `Command ini hanya bisa digunakan di dalam grup!`
+    return `Command is only groups!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.adminOnly = () => {
-    return `Command ini hanya bisa digunakan oleh admin grup!`
+    return `Command is only admins\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ!`
 }
 
 exports.notNsfw = () => {
-    return `Command NSFW belum diaktifkan!`
+    return `Command not NSFW!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.nsfwOn = () => {
-    return `Command NSFW berhasil *diaktifkan*!`
+    return `Command on NSFW!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.nsfwOff = () => {
-    return `Command NSFW berhasil *dinonaktifkan*!`
+    return `Command off NSFW!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.nsfwAlready = () => {
-    return `Command NSFW sudah diaktifkan sebelumnya.`
+    return `Command alredy NSFW.\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.addedGroup = (chat) => {
-    return `Terima kasih telah mengundangku, para member *${chat.contact.name}*!\n\nSilakan register dengan cara ketik:\n*${prefix}register* nama | umur`
+    return `මට ආරාධනා කිරීම ගැන ඔබට ස්තුතියි, සාමාජිකයින් *${chat.contact.name}*!\n\nකරුණාකර ටයිප් කිරීමෙන් ලියාපදිංචි වන්න:\n*${prefix}ලියාපදිංචිය* නම | වයස\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `invited is not valid!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.listBlock = (blockNumber) => {
     return `
-*── 「 HALL OF SHAME 」 ──*
+*── 「 ALL BLOCK USERS 」 ──*
 
-Total user diblokir: *${blockNumber.length}*\n
+Total user: *${blockNumber.length}*\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ
     `
 }
 
 exports.notPremium = () => {
-    return `Maaf! Command ini khusus untuk user premium saja.`
+    return `සමාවෙන්න! මෙම විධානය වාරික භාවිතා කරන්නන් සඳහා පමණි/nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.notAdmin = () => {
-    return `User bukan seorang admin!`
+    return `User not admin!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.adminAlready = () => {
-    return `Tidak dapat mem-promote user yang merupakan admin!`
+    return `Sorry i cant\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.botNotPremium = () => {
-    return `Bot ini tidak mendukung command premium. Silakan hubungi pemilik bot ini.`
+    return `your not premium user🙁!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ.`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu!`
+    return `Bot is not admin🙁!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.ytFound = (res) => {
@@ -98,55 +98,55 @@ exports.ytFound = (res) => {
 *── 「 YOUTUBE 」 ──*
 
 Video ditemukan!
-➸ *Judul*: ${res.title}
-➸ *Deskripsi*:
+➸ *name*: ${res.title}
+➸ *Description*:
 ${res.desc}
-➸ *Durasi*: ${res.duration}
+➸ *Duration*: ${res.duration}
 
-Media sedang dikirim, mohon tunggu...
+Media is loading...\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ
     `
 }
 
 exports.notRegistered = () => {
-    return `Kamu belum terdaftar di database!\n\nSilakan register dengan format:\n*${prefix}register* nama | umur`
+    return `user is not registered!\n\nsorry my data is format:\n*${prefix}register* nama | age \nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.registered = (name, age, userId, time, serial) => {
     return `
-*── 「 REGISTRATION 」 ──*
+*── 「 AKEERA REGISTRATION 」 ──*
     
-Akun kamu telah terdaftar dengan data:
+Akeera bot registered the user:
 ➸ *Nama*: ${name}
-➸ *Umur*: ${age}
+➸ *Age*: ${age}
 ➸ *ID*: ${userId}
-➸ *Waktu pendaftaran*: ${time}
+➸ *Time*: ${time}
 ➸ *Serial*: ${serial}
 
-Catatan:
-Jangan pernah menyebarkan data *serial* ke pada siapapun!
+*WARN!!!*
+Please dont share your data kn others!
 
-Ketik *${prefix}rules* terlebih dahulu ya~
+1.please type *${prefix}rules*~
     `
 }
 
 exports.registeredAlready = () => {
-    return `Kamu sudah mendaftar sebelumnya.`
+    return `Already registered!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.received = (pushname) => {
-    return `Halo ${pushname}!\nTerima kasih telah melapor, laporanmu akan kami segera terima.`
+    return `Hallo ${pushname}! Please wait i'll accept your report\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.daily = (time) => {
-    return `Maaf, tetapi kamu telah mencapai limit menggunakan command ini.\nSilakan tunggu *${time.hours}* jam *${time.minutes}* menit *${time.seconds}* detik lagi.`
+    return `කණගාටුයි, නමුත් ඔබ මෙම විධානය භාවිතයෙන් සීමාවට පැමිණ ඇත.\nකරුණාකර *${time.hours}* පැය *${time.minutes}* මිනිත්තු *${time.seconds}* තවත් තත්පර රැඳී සිටින්න\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ.`
 }
 
 exports.musiclimit = () => {
-    return `Ukuran Music Terlalu Besar!`
+    return `music limite is too high!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran video terlalu besar!`
+    return `video limite is too high!\nᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ`
 }
 
 exports.joox = (result) => {
@@ -155,19 +155,19 @@ exports.joox = (result) => {
 
 Lagu ditemukan!
 ➸ *Artist*: ${result[0].penyanyi}
-➸ *Judul*: ${result[0].judul}
+➸ *name*: ${result[0].judul}
 ➸ *Album*: ${result[0].album}
 ➸ *Ext*: ${result[0].ext}
 ➸ *Size*: ${result[0].filesize}
-➸ *Durasi*: ${result[0].duration}
+➸ *Duration*: ${result[0].duration}
 
-Media sedang dikirim, mohon tunggu...
+Media sending...
     `
 }
 
 exports.gsm = (result) => {
     return `
-*── 「 GSMARENA 」 ──*
+*── 「 GS 」 ──*
 
 ➸ *Model HP*: ${result.title}
 ➸ *Spesifikasi*: ${result.spec}
@@ -180,8 +180,8 @@ exports.receipt = (result) => {
 
 ${result.desc}
 
-➸ *Bahan*: ${result.bahan}
-➸ *Langkah*:
+➸ *Bj: ${result.bahan}
+➸ *lk*:
 ${result.cara}
     `
 }
@@ -190,9 +190,9 @@ exports.ytResult = (urlyt, title, channel, duration, views) => {
     return `
 *── 「 YOUTUBE 」 ──*
 
-➸ *Judul*: ${title}
+➸ *name*: ${title}
 ➸ *Channel*: ${channel}
-➸ *Durasi*: ${duration}
+➸ *Duration*: ${duration}
 ➸ *Views*: ${views}
 ➸ *Link*: ${urlyt}
     `
@@ -221,36 +221,36 @@ exports.detectorOn = (name, formattedTitle) => {
     return `
 *── 「 ANTI GROUP LINK 」 ──*
 
-Perhatian untuk penghuni grup *${(name || formattedTitle)}*
-Grup ini memiliki anti-group link detector, apabila ada salah satu member mengirim group link di sini maka dia akan ter-kick secara otomatis.
+කණ්ඩායම් සාමාජිකයින්ගේ අවධානයට *${(name || formattedTitle)}*
+මේ ගෲප් එකේ ඇන්ටි ගෲප් ලින්ක් ඩිටෙක්ටරයක් තියෙනවා, සාමාජිකයෙක් ගෲප් ලින්ක් එකක් මෙහෙට එව්වොත් එයාට ඉබේම පයින් ගහනවා😂.
 
-Sekian terima kasih.
-- Admin *${(name || formattedTitle)}*
+එපමනයි😂.
+- Admin *${(name || formattedTitle)}
+ᴘᴏᴡᴇʀᴅ ʙʏ ᴀᴋᴇᴇʀᴀ
     `
 }
 
 exports.detectorOff = () => {
-    return `Fitur anti-group link berhasil *dinonaktifkan*!`
+    return `*ᴅᴇᴛᴇꜰᴛᴏʀ ᴋɴ*!`
 }
 
 exports.detectorOnAlready = () => {
-    return `Fitur anti-group link telah diaktifkan sebelumnya.`
+    return `ᴅᴇᴛᴇᴄᴛᴏʀ ᴀʟʀᴇᴀᴅʏ ᴋɴ`
 }
 
 exports.antiNsfwOn = (name, formattedTitle) => {
     return `
 *── 「 ANTI NSFW LINK 」 ──*
 
-Perhatian untuk penghuni grup *${(name || formattedTitle)}*
-Grup ini memiliki anti-NSFW link detector, apabila ada salah satu member mengirim link NSFW/porn di sini maka dia akan ter-kick secara otomatis.
-
-Sekian terima kasih.
-- Admin *${(name || formattedTitle)}*
+අවධානයට සමූහ නිවැසියන් *${(name || formattedTitle)}*
+මෙම කණ්ඩායම සතුව ප්‍රති-NSFW සබැඳි අනාවරකයක් ඇත, සාමාජිකයෙකු NSFW/අසභ්‍ය සබැඳියක් මෙහි එවන්නේ නම්, ඔහුට ස්වයංක්‍රීයව පයින් ගසනු ලැබේ.
+එපමණයි සහ ස්තූතියි.
+- පරිපාලක *${(name || formattedTitle)}
     `
 }
 
 exports.antiNsfwOff = () => {
-    return `Fitur anti-NSFW link berhasil *dinonaktifkan*!`
+    return `nsfw off`
 }
 
 exports.antiNsfwOnAlready = () => {
